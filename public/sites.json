@@ -2,7 +2,7 @@
   "data": [
   {
     "idWord": "note",
-    "imgSrc": "./images/leave-a-note.PNG",
+    "imgSrc": "../src/assets/images/leave-a-note.PNG",
     "siteTitle": "Leave A Note",
     "siteDescription":
       "Developed in a team, this full-stack application allows users signup, login, and leave a note for their groups. It also allows them to view notes left for them by other users in their group.",
@@ -23,7 +23,7 @@
   },
   {
     "idWord": "travel",
-    "imgSrc": "./images/travel-planner.png",
+    "imgSrc": "../src/assets/images/travel-planner.png",
     "siteTitle": "Travel Planner",
     "siteDescription":
       "Developed in a team, this web application retrieves different information about a location. It includes information about the weather forecast upcoming events, and a map of the location.",
@@ -42,7 +42,7 @@
   },
   {
     "idWord": "workday",
-    "imgSrc": "./images/work-day.PNG",
+    "imgSrc": "../src/assets/images/work-day.PNG",
     "siteTitle": "Work Day Scheduler",
     "siteDescription":
       "This is a web application that locally persists events into a work day scheduler.",
@@ -52,7 +52,7 @@
   },
   {
     "idWord": "weather",
-    "imgSrc": "./images/weather-dashboard.PNG",
+    "imgSrc": "../src/assets/images/weather-dashboard.PNG",
     "siteTitle": "Weather Dashboard",
     "siteDescription":
       "This weather dashboard gives you the current and 5-day forecast for a city. It also saves your recent weather searches.",
@@ -62,7 +62,7 @@
   },
   {
     "idWord": "burger",
-    "imgSrc": "./images/burger.PNG",
+    "imgSrc": "../src/assets/images/burger.PNG",
     "siteTitle": "Eat the Burger",
     "siteDescription":
       "This app takes names of burgers and saves them to a database. Then you can virtually eat the burgers and the database record will be updated and the item moved to a different list.",
