@@ -1,6 +1,15 @@
 import React from "react";
-
 function Card ({ idword, imgSrc, siteTitle, siteDescription, url, github, tech }) {
+  console.log(`image src: ${imgSrc}`);
+
+  const handleCodeClick = () => {
+    window.location = github;
+  }
+
+  const handleSiteClick = () => {
+    window.location = url;
+  }
+
   return (
     <div className="col mb-4">
       <div id={idword} className="card">
@@ -11,8 +20,8 @@ function Card ({ idword, imgSrc, siteTitle, siteDescription, url, github, tech }
           <div className="card-footer border-0">
             <h6 className="card-title">Technologies</h6>
             <ul><li>{tech}</li></ul>
-            <button type="button" className="btn btn-primary m-1">Deployed Site</button>
-            <button type="button" id={idword + "-code-button"} className="btn btn-danger m-1">Show me code</button>
+            <button type="button" className="btn btn-primary m-1" onClick={handleSiteClick}>Deployed Site</button>
+            <button type="button" id={idword + "-code-button"} className="btn btn-danger m-1" onClick={handleCodeClick}>Show me code</button>
           </div>
         </div>
       </div>
