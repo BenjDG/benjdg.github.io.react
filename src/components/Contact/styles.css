@@ -1,0 +1,17 @@
+.contact-icons {
+	padding: 8rem 0 20rem;
+}
+
+.contact-section {
+	padding: 5rem;
+}
+
+@media screen and (max-width: 480px) {
+  .contact-icons {
+		padding: 1rem 0 5rem;
+	}
+
+  .contact-section {
+		padding: 1rem;
+	}
+}

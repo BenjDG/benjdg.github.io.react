@@ -1,0 +1,18 @@
+.about-section {
+	padding: 5rem;
+	margin-bottom: 5rem;
+}
+
+.about-color {
+	padding: 8rem 0 10rem;
+}
+
+@media screen and (max-width: 480px) {
+	.about-color {
+		padding: 1rem 0 4rem;
+	}
+	.about-section {
+		padding: 2rem;
+		margin-bottom: 1rem;
+	}
+}

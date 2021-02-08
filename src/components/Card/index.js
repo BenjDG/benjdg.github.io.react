@@ -1,6 +1,8 @@
 import React from "react";
+import TechListItem from '../TechListItem';
+import "./styles.css";
+
 function Card ({ idword, imgSrc, siteTitle, siteDescription, url, github, tech }) {
-  console.log(`image src: ${imgSrc}`);
 
   const handleCodeClick = () => {
     window.location = github;
@@ -19,7 +21,9 @@ function Card ({ idword, imgSrc, siteTitle, siteDescription, url, github, tech }
           <p className="card-text">{siteDescription}</p>
           <div className="card-footer border-0">
             <h6 className="card-title">Technologies</h6>
-            <ul><li>{tech}</li></ul>
+            <ul>
+              {tech.map((item) => (<TechListItem item={item}/>))}
+              </ul>
             <button type="button" className="btn btn-primary m-1" onClick={handleSiteClick}>Deployed Site</button>
             <button type="button" id={idword + "-code-button"} className="btn btn-danger m-1" onClick={handleCodeClick}>Show me code</button>
           </div>

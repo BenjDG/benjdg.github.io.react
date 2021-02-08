@@ -1,5 +1,6 @@
 import React from "react";
 import pic from "./reducedSelf.png";
+import "./styles.css";
 
 function About () {
   return (

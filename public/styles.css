@@ -12,58 +12,20 @@ h2 {
 	font-family: "Cardo", serif;
 }
 
-.card:hover {
-box-shadow: 10px 10px 5px;
-}
-
-.about-color {
-	padding: 8rem 0 10rem;
-}
-
 .portfolio-color {
 	padding: 8rem 0 10rem;
 }
 
-.about-section {
-	padding: 5rem;
-	margin-bottom: 5rem;
-}
-
-.portfolio-section,
-.contact-section {
+.portfolio-section {
 	padding: 5rem;
 }
 
-.contact-icons {
-	padding: 8rem 0 20rem;
-}
-
-.loader {
-	margin-top: 15rem;
-	animation: spin 2s linear infinite;
-}
-
-@keyframes spin {
-	0% { transform: rotate(0deg); }
-	100% { transform: rotate(360deg); }
-  }
 
 @media screen and (max-width: 480px) {
-	.about-color {
-		padding: 1rem 0 4rem;
-	}
-	.about-section {
-		padding: 2rem;
-		margin-bottom: 1rem;
-	}
 	.portfolio-color {
 		padding: 1rem 0 4rem;
 	}
-	.portfolio-section,
-	.contact-section {
+	.portfolio-section {
 		padding: 1rem;
-	}
-	.contact-icons {
-		padding: 1rem 0 5rem;
 	}
 }
