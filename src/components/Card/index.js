@@ -22,7 +22,7 @@ function Card ({ idword, imgSrc, siteTitle, siteDescription, url, github, tech }
           <div className="card-footer border-0">
             <h6 className="card-title">Technologies</h6>
             <ul>
-              {tech.map((item) => (<TechListItem item={item}/>))}
+              {tech.map((item, index) => (<TechListItem key={index} item={item}/>))}
               </ul>
             <button type="button" className="btn btn-primary m-1" onClick={handleSiteClick}>Deployed Site</button>
             <button type="button" id={idword + "-code-button"} className="btn btn-danger m-1" onClick={handleCodeClick}>Show me code</button>

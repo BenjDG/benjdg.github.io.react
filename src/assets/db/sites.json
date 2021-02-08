@@ -48,7 +48,7 @@
       "This is a web application that locally persists events into a work day scheduler.",
     "url": "https://benjdg.github.io/05_Work_Day_Scheduler/",
     "github": "https://github.com/BenjDG/05_Work_Day_Scheduler",
-    "tech": ["Day.js", "Bulma", "jQuery", "Font Awesome", "Open Weather API"]
+    "tech": ["Luxon.js", "Bootstrap", "jQuery", "Font Awesome"]
   },
   {
     "idWord": "weather",
@@ -76,6 +76,38 @@
       "ORM",
       "Handlebars",
       "Heroku"
+    ]
+  },
+  {
+    "idWord": "user_directory",
+    "imgSrc": "./images/user-directory.PNG",
+    "siteTitle": "Employee Directory",
+    "siteDescription":
+      "An example employee directory that uses Reactjs. You can sort the data alphabetically by column or you can use the search bar to find an employee.",
+    "url": "https://benjdg.github.io/user_directory/",
+    "github": "https://github.com/BenjDG/user_directory",
+    "tech": [
+      "React.js",
+      "Material-ui",
+      "yarn"
+    ]
+  },
+  {
+    "idWord": "budget",
+    "imgSrc": "./images/budget.PNG",
+    "siteTitle": "Online/Offline Budget Tracker",
+    "siteDescription":
+      "This is a budget tracker app that has been upgraded to work online and offline. The app syncs to the server when there is an internet connection, but it can also work offline and then will sync the data the next time an internet connection is detected. This progressive web application utilizes browser caching and IndexedDB.",
+    "url": "https://offline-online-budget-tracker1.herokuapp.com/",
+    "github": "https://github.com/BenjDG/Offline_Online_Budget_Tracker",
+    "tech": [
+      "MongoDB",
+      "PWA",
+      "IndexedDB",
+      "Node.js",
+      "Express.js",
+      "Heroku",
+      "Continuous Deployment"
     ]
   }
 ]
